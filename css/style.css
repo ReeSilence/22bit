@@ -1,0 +1,155 @@
+html {
+  height: 100%; 
+}
+
+body {
+  height: 100%; 
+  margin: 0;
+  display: flex;            
+  flex-direction: column;   
+  background-color: #1F1F1F;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Общий контейнер */
+.container-56 {
+  width: 90%;       
+  max-width: 65%;   
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  padding: 0;   
+  background-color: #242424;
+  border-bottom: 3px solid #333;
+}
+
+.logo-img {
+  height: 72px;    
+  width: auto;
+  margin: 0;        
+  padding: 0; 
+}
+
+header .btn-link {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; 
+}
+header .btn-link:hover {
+  text-decoration: underline;
+  color: #5ADD5C;
+}
+
+/* MENU */
+nav {
+  height: 80px;          
+  padding: 10px 0;
+  display: flex;          
+  align-items: center;    
+  background-color: #1F1F1F;
+}
+
+/* MAIN */
+main {
+  flex: 1; 
+  padding: 0;
+}
+
+/* FOOTER */
+footer {
+  padding: 10px 0;
+  text-align: center;
+
+  background-color: #242424;
+  border-top: 3px solid #333;
+}
+
+/* Кнопки */
+.btn {
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-light {
+  background-color: white;
+  color: #1F1F1F;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+.btn-outline-light:hover {
+  background-color: white;
+  color: #1F1F1F;
+}
+
+/* Поля ввода */
+.form-control {
+  border: 1px solid #444;
+  border-radius: 8px;
+
+  background-color: #2a2a2a;
+  color: #D9D9D9;
+}
+.form-control::placeholder {
+  color: #aaa;
+}
+
+/* Popover */
+.popover {
+  background-color: #2a2a2a;
+  color: white; 
+}
+.popover-header {
+  background-color: #242424;
+  color: white;
+}
+.popover-body {
+  color: white; 
+  white-space: pre-line; 
+}
+
+/* Карусель */
+.carousel-inner img {
+  height: 500px;        
+  object-fit: cover;    
+  border-radius: 16px;   
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 1rem;
+}
+
+.carousel-item {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.banner-wrapper {
+  padding: 0;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+/* Категории */
+.category-card {
+  background-color: #2a2a2a;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+.category-card img {
+  height: 150px;
+  object-fit: cover;
+}
